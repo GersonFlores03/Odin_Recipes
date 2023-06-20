@@ -1,0 +1,201 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    object-fit: contain;
+}
+
+.Logo img{
+   width: 120px;
+ 
+}
+.Logo{
+    position: relative;
+    right: 650px;
+}
+
+
+.ContenedorLista {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6rem;
+    padding: 2rem;
+    background-color: rgb(241, 243, 245);
+    box-shadow: 2px 2px 8px rgb(155, 152, 152);
+    margin-bottom: 20px;
+}
+
+.ContenedorLista .Nav a {
+    text-decoration: none;
+}
+
+.ContenedorLista.Nav {
+    list-style-type: none;
+}
+
+.TitlePrincipal {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ContenidoFood {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.Referencias{
+    background: rgb(245, 246, 234);
+    width: 500px;
+    height: 554px;
+    object-fit: contain;
+}
+
+.Referencias h2{
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 5px;
+}
+.FlexSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 20px;
+}
+
+.ParrafoReferecia{
+    font-size: 11px;
+    width: 220px;
+}
+
+.Img{
+  width: 130px;
+  object-fit: contain;
+}
+
+/*.Video {
+   width: 910px;
+   height: 910px;
+}*/
+
+.ImgPrincipal{
+    width: 700px;
+    height: 480px;
+}
+
+
+.PrimeraSection h2{
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+.Lectura{
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.Lectura p{
+    margin-bottom: 40px;
+}
+
+.TitleReceta{
+  margin-bottom: 30px;
+  padding: 1rem;
+}
+
+.SegundaSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ListaOrdenada{
+   width: 300px;
+}
+.ListaOrdenada li{
+    margin-bottom: 15px;
+}
+
+.SectionReceta li{
+    margin-bottom: 15px;
+}
+
+/* LINKS DE CEVICHES */
+
+
+.PlatosIguales{
+    background-color: rgb(220, 219, 219);
+    padding: 1rem;
+}
+
+.Plato a {
+    text-decoration: none;
+}
+
+.SectionPlato{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1rem;
+}
+
+.TextoReferencia{
+    background-color: #fff;
+    position: relative;
+    bottom: 5px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 8px rgb(180, 180, 180);
+}
+
+
+
+
+.ImgReferente{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.ImgReferenteTwo{
+    width: 250px;
+    height: 250px;
+}
+
+
+/* Footer  */
+
+.Conclusion{
+    background-color: rgb(241, 243, 245);
+    box-shadow: 2px 2px 8px rgb(155, 152, 152);
+}
+
+.LogoFooter{
+    width: 200px;
+    object-fit: contain;
+    display: block;
+    margin:  0 auto;
+}
+.Redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.Redes a{
+    cursor: pointer;
+}

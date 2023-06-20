@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    object-fit: contain;
+}
+
+.TitleHt2{
+    text-align: center;
+    padding: 1rem;
+}
+
+.CevicheImg{
+    width: 500px;
+}
+
+
+.PlatosSimiliares{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    padding: 2rem;
+}
+
+
+.TextoReceta2{
+    width: 700px;
+}
